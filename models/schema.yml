@@ -25,3 +25,31 @@ models:
 
       - name: value
         description: Total value (AUD) of a customer's orders
+  
+  - name: python_job
+
+    # Document within the same codebase
+    description: My transformation written in Python
+
+    # Configure in ways that feel intuitive and familiar
+    config:
+      #packages:
+      #  - "numpy==1.23.1"
+      #  - scikit-learn
+      tags: ['python']
+
+    columns:
+      - name: language
+        description: Date (UTC) of a customer's first order
+
+      - name: percentage
+        description: Date (UTC) of a customer's most recent order
+
+      - name: is_official
+        description: Count of the number of orders a customer has placed
+
+      - name: country_code
+        description: Total value (AUD) of a customer's orders
+      
+      - name: test
+        description: Total value (AUD) of a customer's orders
