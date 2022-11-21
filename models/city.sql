@@ -1,6 +1,6 @@
 with city as (
 
-    select *, 1 as value from city
+    select *, 1 as value from {{ ref('stg_city') }}
 
 ),
 
