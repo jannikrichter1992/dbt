@@ -1,6 +1,6 @@
 with city as (
 
-    select *, 1 as value from city,  from city
+    select *, 1 as value from city
 
 ),
 
