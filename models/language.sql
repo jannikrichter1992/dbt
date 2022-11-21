@@ -1,4 +1,4 @@
-with country_language as (
+with language as (
 
     select * from country_language
 
