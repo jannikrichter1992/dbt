@@ -1,6 +1,6 @@
 with language as (
 
-    select * from {{ ref('stg_country_language') }}
+    select * from {{ ref('python_job') }}
 
 )
 
