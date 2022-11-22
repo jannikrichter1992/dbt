@@ -1,7 +1,7 @@
 version: 2
 
 models:
-  - name: stg_city
+  - name: city
     description: This table has basic information about a customer, as well as some derived facts based on a customer's orders
 
     columns:
@@ -24,7 +24,7 @@ models:
         description: Count of the number of orders a customer has placed
 
   
-  - name: stg_country_language
+  - name: country_language
     description: This table has basic information about a customer, as well as some derived facts based on a customer's orders
 
     columns:
