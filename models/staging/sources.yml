@@ -3,7 +3,7 @@ version: 2
 
 sources:
   - name: postgres_world
-    description: '{{ doc("tpch_source") }}'
+    description: description here
     database: world-db
     schema: public
     tables:
