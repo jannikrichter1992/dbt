@@ -47,7 +47,7 @@ models:
         description: Total value (AUD) of a customer's orders
 
   
-  - name: python_job
+  - name: pythonjob_py
 
     # Document within the same codebase
     description: My transformation written in Python
