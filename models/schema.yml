@@ -45,16 +45,3 @@ models:
       
       - name: test
         description: Total value (AUD) of a customer's orders
-
-  
-  - name: pythonjob_py
-
-    # Document within the same codebase
-    description: My transformation written in Python
-
-    # Configure in ways that feel intuitive and familiar
-    config:
-      #packages:
-      #  - "numpy==1.23.1"
-      #  - scikit-learn
-      tags: ['python']
