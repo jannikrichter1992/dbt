@@ -1,6 +1,6 @@
 with source as (
 
-select * from city
+select * from {{ source('postgres_world','city') }}
 
 ),
 
